@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+::before,
+::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 30px 50px;
+  background: #f4f5f9;
+  min-height: 100vh;
+  height: 100%;
+  font-family: Montserrat;
+  font-size: 15px;
+  color: #636363;
+}
+
+.container {
+  margin-top: 15px;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.flex {
+  display: flex;
+}
+
+.nav {
+  flex: auto;
+  overflow: auto;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+header {
+  align-items: center;
+  padding-bottom: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+}
+
+.btn {
+  margin: 5px;
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+}
+.round {
+  border-radius: 50px;
+}
+
+.border {
+  border: 1px solid #cfd2dc;
+}
+
+.filter {
+  background: #e1e4ea;
+}
+
+.mail-tile,
+.mail-body {
+  margin-bottom: 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+.mail-tile:active {
+  border: 1px solid #e54065;
+}
+
+.mail-body {
+  flex-basis: 75%;
+  background: white;
+  padding: 20px 40px 50px 0;
+  position: sticky;
+  top: 20px;
+}
+
+.body-head {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 30px;
+}
+
+.read-tile {
+  background: #f2f2f2;
+}
+
+.side {
+  padding: 10px 15px;
+}
+
+.left {
+  flex-basis: 80px;
+}
+
+.fav {
+  display: inline-block;
+  color: #e54065;
+  margin-left: 40px;
+  font-weight: 600;
+}
+
+.body-head > .fav {
+  font-size: 12px;
+  background: #e54065;
+  color: white;
+  font-weight: 400;
+  padding: 6px 12px;
+  text-align: center;
+}
+
+.body-para {
+  padding-bottom: 20px;
+}
+
+.avatar {
+  background: #e54065;
+  border-radius: 100px;
+  color: white;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.right {
+  flex-grow: 1;
+  text-align: left;
+  overflow: auto;
+}
+
+.right > p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+p.nowrap {
+  white-space: nowrap;
+}
+
+.loading {
+  text-align: center;
+}
