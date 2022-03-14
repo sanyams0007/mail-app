@@ -1,4 +1,4 @@
-# Nested List
+# Mail App
 
 An outlook like dummy client app made using API in ReactJS.
 
